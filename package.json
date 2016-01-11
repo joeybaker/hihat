@@ -34,7 +34,7 @@
     "sliced": "^1.0.1",
     "split2": "^1.0.0",
     "through2": "^0.6.5",
-    "watchify": "^3.3.0"
+    "@joeybaker/watchify": "^3.7.0"
   },
   "devDependencies": {
     "async-each-series": "^1.0.0",
