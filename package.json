@@ -1,7 +1,7 @@
 {
-  "name": "hihat",
+  "name": "@joeybaker/hihat",
   "version": "2.6.2",
-  "description": "local Node/Browser development with Chrome DevTools",
+  "description": "local Node/Browser development with Chrome DevTools. This fork uses a fork of watchify that prevents EMFILE warnings.",
   "main": "index.js",
   "license": "MIT",
   "author": {
@@ -76,11 +76,11 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git://github.com/Jam3/hihat.git"
+    "url": "git://github.com/joeybaker/hihat.git"
   },
   "homepage": "https://github.com/Jam3/hihat",
   "bugs": {
-    "url": "https://github.com/Jam3/hihat/issues"
+    "url": "https://github.com/joeybaker/hihat/issues"
   },
   "bin": {
     "hihat": "./bin/cmd.js"

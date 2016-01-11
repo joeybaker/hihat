@@ -1,12 +1,15 @@
 # hihat <sub>![logo](img/logo-thumb.png)</sub>
 
+## THIS IS A SIMPLE FORK
+This fork uses a fork of watchify that prevents EMFILE warnings. It is meant to keep parity with upstream.
+
 ![hihat](http://i.imgur.com/Sqpbjzl.gif)
 
 > local Node/Browser development with Chrome DevTools
 
-Runs a source file in a Chrome DevTools process. Saving the file will reload the tab. 
+Runs a source file in a Chrome DevTools process. Saving the file will reload the tab.
 
-This is useful for locally unit testing browser code with the full range of Web APIs (WebGL, WebAudio, etc). It provides access to profiling, debugger statements, network requests, and so forth. 
+This is useful for locally unit testing browser code with the full range of Web APIs (WebGL, WebAudio, etc). It provides access to profiling, debugger statements, network requests, and so forth.
 
 It can also be used to develop typical Node projects, or as a generic [Node REPL](#repl). For example, instead of using [nodemon](https://www.npmjs.com/package/nodemon) during development, you can use `hihat` to make use of a debugger.
 
@@ -168,7 +171,7 @@ And the following `foo.html`:
   <meta charset="utf-8">
   </head>
 <body>
-  <script src="test.js"></script> 
+  <script src="test.js"></script>
 </body>
 </html>
 ```
@@ -182,7 +185,7 @@ hihat test.js --index=foo.html --serve=bundle.js
 With this, your script tag would be:
 
 ```html
-<script src="bundle.js"></script> 
+<script src="bundle.js"></script>
 ```
 
 In most cases, `--serve` will default to the file name of your entry file. In complex cases, such as absolute paths or `'.'`, it may default to `'bundle.js'`.
